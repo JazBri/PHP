@@ -6,7 +6,7 @@
     <title>PHP Document</title>
 </head>
 <body>
-    <h1>Sintaxis básica</h1>
+    <h1>Sintaxis básicaaaaaaaa</h1>
     <?php
 
         $text = " Hello World";

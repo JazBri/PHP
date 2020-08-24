@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--EJERCICIO 7-->
+    <form action="action.php" method="GET"> <!--El method GET no oculta la información, se ve en la URL, a diferencia del POST-->
+        <input type ="text" id="product" name = "product" placeholder="Introduzca el producto"        />
+        <input type ="number" id="price" name = "price" placeholder="Introduzca el valor"        />
+        <button type ="submit" >Enviar </button>
+    </form>
+    <br/>
+    <!--EJERCICIO 8-->
+    <form action="action.php" method="POST"> <!--El method GET no oculta la información, se ve en la URL, a diferencia del POST-->
+        <input type ="number" min="0" id="n1" name = "n1" placeholder="Numero1"        />
+        <input type ="number" min="0" id="n2" name = "n2" placeholder="Numero2"        />
+        <input type ="number" min="0" id="n3" name = "n3" placeholder="Numero3"        />
+        <input type ="number" min="0" id="n4" name = "n4" placeholder="Numero4"        />
+        <button type ="submit" >Enviar </button>
+    </form>
+    <br/>
+    <!--EJERCICIO 9-->
+    <form action="tabla.php" method="POST"> <!--El method GET no oculta la información, se ve en la URL, a diferencia del POST-->
+        <input type ="text"  id="name" name = "name" placeholder="Name"/>
+        <input type ="text"  id="age" name = "age" placeholder="Sex"/>
+        <input type ="text"  id="sex" name = "sex" placeholder="Age"/>
+        <button type ="submit" >Enviar </button>
+    </form>
+</body>
+</html>

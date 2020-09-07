@@ -1,6 +1,6 @@
 <?php
     namespace Models;
-
+ 
     class Person
     {
         private $firstName;

@@ -1,0 +1,1 @@
+//Gestiona la concección a la base de datos.
